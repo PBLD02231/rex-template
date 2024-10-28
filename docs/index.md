@@ -6,7 +6,7 @@ Les documentations Markdown permettent de transformer des fichiers au format en 
 
 Le fichier **requirements** permet d'installer directement les extensions VSCode pertinentes, notamment afin de voir le résultat de la construction des pages (grâce au bouton Open Preview).
 
-![alt text](./assets/images/previewho.PNG){ align=center }
+![alt text](./assets/images/previewho.PNG)
 
 Il se décompose en 4 parties principales : 
 * Présentation générale

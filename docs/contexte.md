@@ -18,7 +18,7 @@ Présentez dans les grandes lignes les différentes briques techniques.
 
 Il est également possible d'insérer des diagrammes direcement sous format svg, par exemple quand ils ont été exportés depuis draw.io.
 
-![alt text](./assets/images/exemple.drawio.svg){ align=center }
+![alt text](./assets/images/exemple.drawio.svg)
 
 ### Architecture Decision Records
 

@@ -5,9 +5,9 @@ Dans ce premier paragraphe, présentez le client/la strcture pour laquelle le pr
 
 ## Généralités
 Une section dédiée au généralirés sur le projet : 
-* De quoi il s'agit
-* Avec quelle équipe
-* Pésentation "commerciale" du projet, avec ses  concepts principaux et son positionnement
+- De quoi il s'agit
+- Avec quelle équipe
+- Pésentation "commerciale" du projet, avec ses  concepts principaux et son positionnement
 
 ### Objectifs
 

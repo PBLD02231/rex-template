@@ -9,6 +9,6 @@ Le fichier **requirements** permet d'installer directement les extensions VSCode
 ![alt text](./assets/images/previewho.PNG)
 
 Il se décompose en 4 parties principales : 
-* Présentation générale
-* Contexte technologiques
-* Points d'intérêt
+- Présentation générale
+- Contexte technologiques
+- Points d'intérêt

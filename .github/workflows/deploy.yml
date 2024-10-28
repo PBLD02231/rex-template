@@ -9,7 +9,9 @@
 # have the gh-pages branch pre-made. This prevents possible errors.
 #
 name: Deploy Site
-
+permissions:
+      contents: read
+      pages: write  
 on:
   push:
     paths: 
@@ -27,9 +29,6 @@ on:
 
 jobs:
   build:
-    permissions:
-      contents: read
-      pages: write  
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4

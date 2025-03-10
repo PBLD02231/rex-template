@@ -120,7 +120,7 @@ theme:
   # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#favicon             |
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
-  #favicon: 'assets/images/favicon.png'
+  favicon: './docs/assets/images/hozzeo_infra_cloud_logo.jpeg'
   
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
@@ -148,7 +148,9 @@ theme:
     # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-scheme              |
     # |                                                                                                    |
     # +----------------------------------------------------------------------------------------------------+
-    scheme: 'slate'
+    scheme: youtube
+    extra_css:
+      - ./docs/assets/css/hozzeo_theme.css
     
     # +----------------------------------------------------------------------------------------------------+
     # |                                                                                                    |
@@ -160,7 +162,6 @@ theme:
     # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color             |
     # |                                                                                                    |
     # +----------------------------------------------------------------------------------------------------+
-    primary: 'indigo'
     
     # +----------------------------------------------------------------------------------------------------+
     # |                                                                                                    |
@@ -170,7 +171,6 @@ theme:
     # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#accent-color              |
     # |                                                                                                    |
     # +----------------------------------------------------------------------------------------------------+
-    accent: 'indigo'
     
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
@@ -370,7 +370,7 @@ extra:
   # +------------------------------------------------------------------------------------------------------+
   social:
     - icon: 'fontawesome/brands/github'
-      link: 'https://github.com/PBLD02231/rex-template/tree/master'
+      link: 'https://www.hozzeo.com/'
   
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |

@@ -329,7 +329,7 @@ theme:
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 extra_css:
-  - ./docs/assets/css/hozzeo_theme.css
+  - assets/css/hozzeo_theme.css
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
 # | Similar to the "extra_css" option does the "extra_javascript" option allow you to set custom JS files  |

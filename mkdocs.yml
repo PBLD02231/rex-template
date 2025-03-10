@@ -120,7 +120,7 @@ theme:
   # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#favicon             |
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
-  favicon: './docs/assets/images/hozzeo_infra_cloud_logo.jpeg'
+  #favicon: 'assets/images/favicon.png'
   
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
@@ -148,10 +148,8 @@ theme:
     # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-scheme              |
     # |                                                                                                    |
     # +----------------------------------------------------------------------------------------------------+
-    scheme: youtube
-    extra_css:
-      - ./docs/assets/css/hozzeo_theme.css
-    
+    scheme: 'slate'      
+
     # +----------------------------------------------------------------------------------------------------+
     # |                                                                                                    |
     # | "primary" is used to set the main color of the Material Theme.                                     |
@@ -162,6 +160,7 @@ theme:
     # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color             |
     # |                                                                                                    |
     # +----------------------------------------------------------------------------------------------------+
+    primary: 'custom'
     
     # +----------------------------------------------------------------------------------------------------+
     # |                                                                                                    |
@@ -171,6 +170,7 @@ theme:
     # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#accent-color              |
     # |                                                                                                    |
     # +----------------------------------------------------------------------------------------------------+
+    accent: 'indigo'
     
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
@@ -328,8 +328,8 @@ theme:
 # | - https://www.mkdocs.org/user-guide/configuration/#extra_css                                           |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-#extra_css:
-
+extra_css:
+  - ./docs/assets/css/hozzeo_theme.css
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
 # | Similar to the "extra_css" option does the "extra_javascript" option allow you to set custom JS files  |
